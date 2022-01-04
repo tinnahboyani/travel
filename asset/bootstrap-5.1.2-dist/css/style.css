@@ -1,0 +1,284 @@
+/* body{
+    font-family: 'Cardo', serif;
+font-family: 'Merienda', cursive;
+} */
+/* top section styling */
+
+.logo-part{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-fluid{
+    height: 100px;
+    width: 100px;
+}
+/* .top-bar img{
+    width: 100%!important;
+    height: auto;
+} */
+.top-bar i{
+    font-size: 24px;
+   height: 50px;
+    width: 50px;
+    position: relative;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.top-bar i:hover{
+    color:#531253 ;
+    background-color: #003B36;
+    color: #fff;
+    border: 2px solid #5ABCB9;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+
+}
+
+nav{
+    background-color: #003B36;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+    
+}.img-fluid2{
+    height: 50px!important;
+    width: 50px;
+}
+
+/* nav a{
+    font-size: 16px;
+} */
+
+nav li:hover{
+    background: linear-gradient(60deg,#5EEB5B, #5ABCB9);
+}
+
+nav li{
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
+/* Slider stylesheet */
+.main-slider img{
+    height: 70vh;
+    
+}
+
+.main-slider .carousel-caption{
+    
+    color: aquamarine;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: inset 3px 3px 5px 6px;
+    
+
+}
+
+.main-slider .carousel-caption h5{
+    font-size:15px;
+    
+    font-weight: 200;
+}
+
+.main-slider .carousel-caption p{
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.program .card:hover{
+    box-shadow: 3px 5px 12px -5px rgba(249,111,93,0.75);
+    -webkit-box-shadow: 3px 5px 12px -5px rgba(249,111,93,0.75);
+   -moz-box-shadow: 3px 5px 12px -5px rgba(249,111,93,0.75)
+}
+.program .card img{
+    height: 200px;
+    opacity: .6;
+}
+
+.program .card:hover img{
+    opacity: 1;
+
+}
+.program .card:hover .card-body{
+
+    background: linear-gradient(to right, #F9DC5C, #007991);
+
+}
+
+.title1{
+    text-align: center;
+    color: white;
+
+}
+
+
+.card1{
+    text-align: center;
+    font-family: serif !important;
+}
+
+.button{
+    
+    background: linear-gradient(to right,rgb(17, 17, 226), #2a3dec);
+}
+
+
+.card2{
+    font-family: serif !important;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right,rgb(17, 17, 226), #2a3dec);
+}
+.card3{
+    text-align: center;
+    font-family: serif !important;
+}
+
+
+
+.card-section h5 span.cents{
+vertical-align: super;
+font-size: 20px;
+}
+
+.title2{
+    text-align: center;
+    font-family: serif !important;
+    color: white;
+}
+.calendar-title{
+    text-align: center;
+    background: linear-gradient(to right,rgb(17, 17, 226), #2a3dec);
+    color: white;    
+}
+
+.img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+body{
+    font-family: 'Hind', sans-serif;
+    
+}
+
+.f{
+    font-weight: 700;
+}
+
+.ses{
+    color: white;
+}
+
+.tickets{
+    background-image: linear-gradient(to right, #f9dc5c96, #0079914b ), url('../../../images/istockphoto-537445040-612x612.jpg');
+    display: flex;
+    min-height: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+
+   
+}
+
+.button2{
+    background: linear-gradient(to right, rgb(17, 17, 226), #2a3dec);
+    color: white;
+}
+.img1{
+    width: 70px;
+    height: 70px;
+
+}
+
+.sew{
+    color: #fff;
+    
+}
+
+.sew h2{
+    font-size: 18px;
+}
+
+.te{
+    color: #fff;
+}
+
+.list{
+    font-size: 20px;
+    color: #fff;
+}
+
+.list ul{
+
+    list-style-type: none;
+}
+.Footer{
+    background-color: #071018;
+    font-family: 'Times New Roman', Times, serif!important;
+}
+
+.last{
+    background-color: #022B3A;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif!important;
+    font-size: 20px;
+}
+
+.ff i{
+
+    height: 35px;
+    width: 35px;
+    position: relative;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    
+
+}
+.ff i:hover{
+     background-color: #003B36;
+    color: #fff;
+    border: 2px solid #5ABCB9;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.pi{
+    font-size: 16px;
+    text-align: right;
+}
+.p1{
+    font-size: 15px;
+}
+.p1 i{
+    color: red;
+}
+
+.card-section{
+    background-color: #020122;
+}
+.buttonz{
+    background: linear-gradient(to right, rgb(17, 17, 226), #2a3dec);
+    color: white;
+
+}
+.buttony{
+    background: linear-gradient(to right, rgb(17, 17, 226), #2a3dec);
+    color: white;
+
+}
+.buttonx{
+    background: linear-gradient(to right, rgb(17, 17, 226), #2a3dec);
+    color: white;  
+}
+.buttonm{
+    background: linear-gradient(to right, rgb(17, 17, 226), #2a3dec);
+    color: white; 
+}
